@@ -7,9 +7,9 @@ export const items = [
         name: 'LuffarschApp',
         id: 'item-7',
         date: 'September 2017',
-        description: <span><p>LuffarschApp är en webbapp byggd i React där man utmanar och spelar luffarschack mot andra användare.</p><p>Spelet, liksom inloggade spelare, spelstatus och ranking uppdateras dynamiskt i realtid.</p></span>,
+        description: <span><p>LuffarschApp är en webbapp byggd i React där man utmanar och spelar luffarschack mot andra användare.</p><p>Spelet, liksom inloggade spelare, spelstatus och ranking uppdateras i realtid.</p></span>,
         tools: ['React', 'Firebase', 'Styled Components', 'Semantic UI'],
-        url: 'https://jesperengstrom.github.io/luffarschapp/',
+        url: 'http://jesperengstrom.se/luffarschapp/',
         repo: 'https://github.com/jesperengstrom/luffarschapp',
         img: 'luffarschapp.jpg',
         color: 'rgb(82, 126, 124)'
@@ -31,7 +31,7 @@ export const items = [
         date: 'April 2017',
         description: <span><p>Talartoppen använder Riksdagens öppna API för att räkna ut vilka riksdagsledamöter som varit mest aktiva i debatterna i kammaren.</p><p>Det går även att skapa topp- och bottenlistor för de olika partierna och jämförande statistik partierna emellan.</p></span>,
         tools: ['Ajax', 'jQuery', 'Bootstrap', 'Gulp', 'SASS'],
-        url: 'https://jesperengstrom.github.io/Talartoppen/',
+        url: 'https://jesperengstrom.se/Talartoppen/',
         repo: 'https://github.com/jesperengstrom/Talartoppen',
         img: 'talartoppen.jpg',
         color: 'rgb(94, 135, 89)'
@@ -54,7 +54,7 @@ export const items = [
         date: 'Mars 2017',
         description: <span><p>JMDb är en filmdatabas där det går att lägga till, söka efter, sortera och betygsätta filmer.</p><p>I detta projekt låg fokus på att hantera JSON-objekt och implementera designmönster; <em>module pattern</em> och <em>revealing module pattern</em> i detta fall.</p></span>,
         tools: ['JavaScript', 'Bootstrap'],
-        url: 'https://jesperengstrom.github.io/JMDb/',
+        url: 'http://jesperengstrom.se/JMDb/',
         repo: 'https://github.com/jesperengstrom/JMDb',
         img: 'jmdb.jpg',
         color: 'rgb(212, 192, 70)'
@@ -76,7 +76,7 @@ export const items = [
         date: 'December 2016',
         description: <span><p>Ett sänka skepp-spel skrivet vanilla JS, mest på kul.</p></span>,
         tools: ['JavaScript'],
-        url: 'https://jesperengstrom.github.io/battleship/',
+        url: 'http://jesperengstrom.se/battleship/',
         repo: 'https://github.com/jesperengstrom/battleship',
         img: 'sanka-skepp.jpg',
         color: 'rgb(75, 114, 155)'
