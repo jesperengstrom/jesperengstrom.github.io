@@ -31,7 +31,7 @@ export const items = [
         date: 'April 2017',
         description: <span><p>Talartoppen använder Riksdagens öppna API för att räkna ut vilka riksdagsledamöter som varit mest aktiva i debatterna i kammaren.</p><p>Det går även att skapa topp- och bottenlistor för de olika partierna och jämförande statistik partierna emellan.</p></span>,
         tools: ['Ajax', 'jQuery', 'Bootstrap', 'Gulp', 'SASS'],
-        url: 'https://jesperengstrom.se/Talartoppen/',
+        url: 'http://jesperengstrom.se/Talartoppen/',
         repo: 'https://github.com/jesperengstrom/Talartoppen',
         img: 'talartoppen.jpg',
         color: 'rgb(94, 135, 89)'
