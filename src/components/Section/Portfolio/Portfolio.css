@@ -25,7 +25,7 @@
 
 .double-width {
     width: 200%;
-    transition: transform 1.2s cubic-bezier(0.54, -0.01, 0.84, 1.12);
+    transition: transform 1s cubic-bezier(0.54, -0.01, 0.84, 1.12);
 }
 
 .move-left {

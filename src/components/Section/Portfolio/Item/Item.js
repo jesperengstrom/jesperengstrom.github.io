@@ -101,12 +101,13 @@ function Item({item, onClick, isOpen, closeCard, hidden}) {
                                 Till sajten
                             </p>
                         </a>
-                        <a href={item.repo} target="_blank" className="item-link bold">
+                        {item.repo ? 
+                            <a href={item.repo} target="_blank" className="item-link bold">
                             <p className="ml-1 nowrap">
                                 <i className="icon anticon dev-icon">&#xe6ad;</i> GitHub 
                                 
                             </p>
-                        </a>
+                        </a> : ''}
                     </div>
                 </div>
             </div>
