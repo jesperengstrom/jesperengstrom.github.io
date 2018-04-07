@@ -4,6 +4,17 @@ import React from 'react';
 
 export const items = [
     {
+        name: 'Autoscribe',
+        id: 'item-9',
+        date: 'Februari 2018',
+        description: <span><p>Autoscribe är ett verktyg som använder Javascripts inbyggda taligenkänning för att automatiskt transkribera inspelat ljud till text.</p><p>Transkriberingen blir interaktivt länkad till ljudet och går att exportera i markdown-format.</p></span>,
+        tools: ['React', 'Javascript speech recognition API'],
+        url: 'https://jesperengstrom.se/autoscribe/',
+        repo: 'https://github.com/jesperengstrom/autoscribe',
+        img: 'autoscribe.jpg',
+        color: 'rgb(230, 93, 79)'
+    },
+    {
         name: 'LuffarschApp',
         id: 'item-8',
         date: 'September 2017',
@@ -80,17 +91,17 @@ export const items = [
         img: 'design-examples.jpg',
         color: 'rgb(50, 16, 58)'
     },
-    {
-        name: 'Sänka skepp',
-        id: 'item-1',
-        date: 'December 2016',
-        description: <span><p>Ett sänka skepp-spel skrivet vanilla JS, mest på kul.</p></span>,
-        tools: ['JavaScript'],
-        url: 'http://jesperengstrom.se/battleship/',
-        repo: 'https://github.com/jesperengstrom/battleship',
-        img: 'sanka-skepp.jpg',
-        color: 'rgb(75, 114, 155)'
-    }
+    // {
+    //     name: 'Sänka skepp',
+    //     id: 'item-1',
+    //     date: 'December 2016',
+    //     description: <span><p>Ett sänka skepp-spel skrivet vanilla JS, mest på kul.</p></span>,
+    //     tools: ['JavaScript'],
+    //     url: 'http://jesperengstrom.se/battleship/',
+    //     repo: 'https://github.com/jesperengstrom/battleship',
+    //     img: 'sanka-skepp.jpg',
+    //     color: 'rgb(75, 114, 155)'
+    // }
 ];
 
 

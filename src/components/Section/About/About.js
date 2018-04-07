@@ -4,7 +4,7 @@ import React from 'react';
 import './About.css';
 
 //IMG
-const jesper = require('../../../img/jesper_grey.jpg');
+const jesper = require('../../../img/jesper_old.jpg');
 
 function About(props) {
     return(
